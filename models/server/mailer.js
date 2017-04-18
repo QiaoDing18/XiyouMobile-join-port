@@ -23,7 +23,7 @@ var sendmail = function(mail,callback){
 };
 
 var mailer = function(object, mobile, callback){
-  if(mobile != "xiyou3gfz155**//"){
+  if(mobile != ""){
     callback(true, "no permission");
     return;
   }
